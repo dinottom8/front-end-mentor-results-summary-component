@@ -3,45 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <section>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+    <div class="halfSection1">
+      <div class="yourResult">Your Result</div>
+      <div class="circleResult">
+        <div id="score"></div>
+        <div class="of100">of 100</div>
+      </div>
+      <div class="adverb"></div>
+      <div class="insight">You scored higher than 65% of the people who have taken these tests.</div>
+    </div>
+
+    <div class="halfSection2">
+      <div class="summary">Summary</div>
+
+      <div class="categoryDiv" id="color1">
+        <div class="logoNdName">
+          <img src="" alt="Category Icon" class="categoryIcon">
+          <div class="categoryName" id="colorname1"></div>
+        </div>
+        <div class="categoryof100div">
+          <div class="categoryValue"></div>
+          <div class="ooofff100">/ 100</div>
+        </div>
+      </div>
+
+      <div class="categoryDiv" id="color2">
+        <div class="logoNdName">
+          <img src="" alt="Category Icon" class="categoryIcon">
+          <div class="categoryName" id="colorname2"></div>
+        </div>
+        <div class="categoryof100div">
+          <div class="categoryValue"></div>
+          <div class="ooofff100">/ 100</div>
+        </div>
+      </div>
+
+      <div class="categoryDiv" id="color3">
+        <div class="logoNdName">
+          <img src="" alt="Category Icon" class="categoryIcon">
+          <div class="categoryName" id="colorname3"></div>
+        </div>
+        <div class="categoryof100div">
+          <div class="categoryValue"></div>
+          <div class="ooofff100">/ 100</div>
+        </div>
+      </div>
+
+      <div class="categoryDiv" id="color4">
+        <div class="logoNdName">
+          <img src="" alt="Category Icon" class="categoryIcon">
+          <div class="categoryName" id="colorname4"></div>
+        </div>
+        <div class="categoryof100div">
+          <div class="categoryValue"></div>
+          <div class="ooofff100">/ 100</div>
+        </div>
+      </div>
+
+      <button>Continue</button>
+
+    </div>
+
+  </section>
   
-  Summary
+  <!-- 
+  <img src="" alt="Category Icon" class="categoryIcon">
+  <img src="" alt="Category Icon" class="categoryIcon">
+  <img src="" alt="Category Icon" class="categoryIcon">
 
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
   
-  <div class="attribution">
+  <div class="categoryValue"></div>
+  <div class="categoryValue"></div>
+  <div class="categoryValue"></div>
+
+  
+  <div class="categoryName"></div>
+  <div class="categoryName"></div>
+  <div class="categoryName"></div>
+
+   -->
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+
+  <script src="script.js"></script>
 </body>
 </html>
